@@ -13,6 +13,7 @@
 		4F3F0F371C941E620018543A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3F0F351C941E620018543A /* Main.storyboard */; };
 		4F3F0F391C941E620018543A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F3F0F381C941E620018543A /* Assets.xcassets */; };
 		4F3F0F3C1C941E620018543A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3F0F3A1C941E620018543A /* LaunchScreen.storyboard */; };
+		4F3F0F451C941F150018543A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F0F441C941F150018543A /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4F3F0F381C941E620018543A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F3F0F3B1C941E620018543A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F3F0F3D1C941E620018543A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F3F0F431C941F150018543A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		4F3F0F441C941F150018543A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				4F3F0F3A1C941E620018543A /* LaunchScreen.storyboard */,
 				4F3F0F3D1C941E620018543A /* Info.plist */,
 				4F3F0F2C1C941E620018543A /* Supporting Files */,
+				4F3F0F431C941F150018543A /* Person.h */,
+				4F3F0F441C941F150018543A /* Person.m */,
 			);
 			path = Practise_KVO;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				4F3F0F341C941E620018543A /* ViewController.m in Sources */,
 				4F3F0F311C941E620018543A /* AppDelegate.m in Sources */,
+				4F3F0F451C941F150018543A /* Person.m in Sources */,
 				4F3F0F2E1C941E620018543A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +306,7 @@
 				4F3F0F421C941E620018543A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
