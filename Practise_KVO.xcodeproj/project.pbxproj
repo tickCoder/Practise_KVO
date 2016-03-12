@@ -14,6 +14,8 @@
 		4F3F0F391C941E620018543A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F3F0F381C941E620018543A /* Assets.xcassets */; };
 		4F3F0F3C1C941E620018543A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3F0F3A1C941E620018543A /* LaunchScreen.storyboard */; };
 		4F3F0F451C941F150018543A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F0F441C941F150018543A /* Person.m */; };
+		4F3F0F481C9423CA0018543A /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F0F471C9423CA0018543A /* NextViewController.m */; };
+		4F3F0F4B1C9424170018543A /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F0F4A1C9424170018543A /* UserManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		4F3F0F3D1C941E620018543A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F3F0F431C941F150018543A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		4F3F0F441C941F150018543A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		4F3F0F461C9423CA0018543A /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		4F3F0F471C9423CA0018543A /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		4F3F0F491C9424170018543A /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		4F3F0F4A1C9424170018543A /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,10 @@
 				4F3F0F2C1C941E620018543A /* Supporting Files */,
 				4F3F0F431C941F150018543A /* Person.h */,
 				4F3F0F441C941F150018543A /* Person.m */,
+				4F3F0F461C9423CA0018543A /* NextViewController.h */,
+				4F3F0F471C9423CA0018543A /* NextViewController.m */,
+				4F3F0F491C9424170018543A /* UserManager.h */,
+				4F3F0F4A1C9424170018543A /* UserManager.m */,
 			);
 			path = Practise_KVO;
 			sourceTree = "<group>";
@@ -154,9 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3F0F481C9423CA0018543A /* NextViewController.m in Sources */,
 				4F3F0F341C941E620018543A /* ViewController.m in Sources */,
 				4F3F0F311C941E620018543A /* AppDelegate.m in Sources */,
 				4F3F0F451C941F150018543A /* Person.m in Sources */,
+				4F3F0F4B1C9424170018543A /* UserManager.m in Sources */,
 				4F3F0F2E1C941E620018543A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
