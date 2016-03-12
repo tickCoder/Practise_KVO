@@ -40,6 +40,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)dealloc {
+    [[UserManager sharedInstance] removeObserver:self forKeyPath:@"userid" context:nil];
+    [_person removeObserver:self forKeyPath:@"PIN" context:nil];
+}
+
 - (IBAction)randomBtnAction:(id)sender {
     NSInteger randomPIN = (NSInteger)arc4random();
     _person.PIN = randomPIN;

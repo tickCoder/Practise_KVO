@@ -28,8 +28,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)dealloc {
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+    [[UserManager sharedInstance] removeObserver:self forKeyPath:@"userid" context:nil];
+}
+
 - (IBAction)randomBtnAction:(id)sender {
     NSInteger randomPIN = (NSInteger)arc4random();
+    
+    /*频繁点击时，出现错误
+     -[NextViewController retain]: message sent to deallocated instance
+     要在dealloc中移走
+     */
     [UserManager sharedInstance].userid = randomPIN;
 }
 
