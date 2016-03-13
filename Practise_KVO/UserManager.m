@@ -23,7 +23,37 @@
     if (self) {
         self.userid = 0;
         self.username = @"lucy";
+        self.person = [[Person alloc] init];
+        self.person.name = @"instance";
+        self.person.PIN = 111;
     }
     return self;
+}
+
+
++ (BOOL)automaticallyNotifiesObserversForKey:(NSString *)key {
+    return YES;
+}
+
++ (BOOL)automaticallyNotifiesObserversOfPerson {
+    return YES;
+}
+
++ (BOOL)automaticallyNotifiesObserversOfUserid {
+    return NO;
+}
+
++ (BOOL)automaticallyNotifiesObserversOfUsername {
+    return YES;
+}
+
+- (void)setUserid:(NSInteger)userid {
+    if (userid < 0) {
+        return;
+    }
+    
+    [self willChangeValueForKey:@"userid"];
+    _userid = userid;
+    [self didChangeValueForKey:@"userid"];
 }
 @end

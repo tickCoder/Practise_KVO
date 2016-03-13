@@ -7,9 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 @interface UserManager : NSObject
 + (instancetype)sharedInstance;
 @property (nonatomic, copy) NSString *username;
 @property (nonatomic, assign) NSInteger userid;
+@property (nonatomic, strong) Person *person;
 @end
